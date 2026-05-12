@@ -62,12 +62,12 @@ a:hover {
         grid-auto-flow: column; 
         
         gap: 5px;
-        padding: 15px 5px;
+        padding: 10px 5px;
         overflow-x: auto; /* Adds a scrollbar if the 2 rows are wider than the phone screen */
     }
 
     nav a {
-        font-size: 14px;
+        font-size: 11px;
         white-space: nowrap; /* Prevents text like "Childhood" from breaking into two lines */
         text-align: center;
         padding: 5px 10px;
