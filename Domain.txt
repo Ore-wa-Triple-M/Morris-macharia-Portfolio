@@ -1,0 +1,50 @@
+
+
+## Domain Name
+
+I chose **morriTech** as the domain name for my website. I wanted something short, easy to remember, and tech-related so it represents me and my personal brand. After selecting the name, I registered it through a domain registrar to make sure it’s uniquely mine. This domain acts as the address people type in to visit my site.  
+
+---
+
+## Web Hosting
+
+I used **Netlify** to host my website. I picked Netlify because it’s simple, reliable, and perfect for small projects like my portfolio.  
+
+Deploying the site was straightforward:  
+- I uploaded connected my GitHub repository to Netlify.  
+- I was provided with the URL(morritech.netlify.app)
+ 
+
+
+---
+
+## Features
+
+- **7 HTML pages:** Home, About, Childhood, Education, Skills, Future, Contact  
+- **Shared CSS:** Dark neon theme applied consistently across all pages   
+- **Simple navigation:** Easy to move between sections  
+
+---
+
+## Tools & Technologies
+
+- HTML 
+- CSS
+- Javascript 
+- Netlify (for hosting)  
+ 
+
+---
+
+## Status
+
+The website is fully deployed and accessible online using the custom domain **morritech.netlify.app**.  
+
+---
+
+## Author
+
+**Morris Macharia**  
+Email: machariamorris@gmail.com  
+Instagram:@tri.p.lem   
+
