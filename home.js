@@ -13,7 +13,6 @@ mainBtn.addEventListener('click', (e) => {
         
     } else if (clickCount === 2) {
         // Second click: Change text and spawn the "Yes" button
-        mainBtn.innerText = "Are you sure?";
         mainBtn.style.backgroundColor = "transparent";
         mainBtn.style.border = "none";
         mainBtn.style.cursor = "default";
