@@ -38,7 +38,7 @@ mainBtn.addEventListener('click', (e) => {
                 mainBtn.style.backgroundColor = " hsl(174, 100%, 50%)";
                 mainBtn.style.cursor = "pointer";
                 mainBtn.style.color = " hsl(261, 100%, 27%)";
-                mainBtn.style.transform = "scale(2.5)"; // Reset size so it's read
+                mainBtn.style.transform = "scale(1.5)"; // Reset size so it's read
                 yesBtn.remove(); 
             };
             container.appendChild(yesBtn);
