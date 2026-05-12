@@ -53,17 +53,24 @@ a:hover {
         flex-direction: column; /* Stack elements vertically instead of horizontally */
     }
 }
-
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 600px) {
     nav {
-        display: flex;
+        display: grid;
+        /* Defines exactly two rows */
+        grid-template-rows: repeat(2, auto);
+        /* Automatically creates as many columns as needed to fit the links into 2 rows */
+        grid-auto-flow: column; 
+        
+        gap: 10px;
+        padding: 15px 5px;
+        overflow-x: auto; /* Adds a scrollbar if the 2 rows are wider than the phone screen */
     }
 
     nav a {
-        font-size: 11px;       /* Makes them easier to tap */
-        display: block;
-        width: 100%;
+        font-size: 14px;
+        white-space: nowrap; /* Prevents text like "Childhood" from breaking into two lines */
         text-align: center;
+        padding: 5px 10px;
     }
 }
 
