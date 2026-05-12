@@ -47,7 +47,7 @@ a:hover {
     
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
     .container {
         width: 100%; /* Take up the full screen width */
         flex-direction: column; /* Stack elements vertically instead of horizontally */
