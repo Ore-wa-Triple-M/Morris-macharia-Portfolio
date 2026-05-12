@@ -43,9 +43,16 @@ a:hover {
     margin: 0 auto;
     border-radius: 20px;
     min-height: 720px;
+    display: flex;
     
 }
 
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%; /* Take up the full screen width */
+        flex-direction: column; /* Stack elements vertically instead of horizontally */
+    }
+}
 /* HEADER */
 header {
     background-color: #111421;
